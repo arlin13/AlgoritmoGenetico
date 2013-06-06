@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AlgoritmoGenetico.Helpers
 {
-    public enum Forma
+    public enum ColorAla
     {
-        Redonda,
-        Punteaguda
+        Verde,
+        Cafe,
+        Azul
     }
 }

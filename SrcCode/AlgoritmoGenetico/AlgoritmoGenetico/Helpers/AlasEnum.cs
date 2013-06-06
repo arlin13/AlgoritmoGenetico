@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AlgoritmoGenetico.Helpers
 {
-    public enum DecoradorMariposa
+    public enum Ala
     {
-        Verde,
-        Cafe,
-        Azul
+        RedondaCorta,
+        PunteagudaCorta,
+        RedondaLarga,
+        PunteagudaLarga
     }
 }

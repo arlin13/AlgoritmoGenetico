@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 
 namespace AlgoritmoGenetico
 {
-    public abstract class Mariposa
+    public class Mariposa
     {
-        Ala ala;
-        public string Descripcion { get; set; }
+        public Ala ala { get; set; }
         public Espiritrompa espiritrompa { get; set; }
         public Antena antena { get; set; }
-
-        public abstract string ObtieneDescripcion();
     }
 }
