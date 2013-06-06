@@ -12,9 +12,23 @@ namespace AlgoritmoGenetico
 {
     public partial class Form1 : Form
     {
+        private int height = 100;
+        private int width = 100;
+
         public Form1()
         {
             InitializeComponent();
+            InitializeGrid();
+        }
+
+        private void InitializeGrid()
+        {
+
+        }
+
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
