@@ -1,1 +1,10 @@
 C:\Users\Arlin\Desktop\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\AlgoritmoGenetico.exe.config
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\AlgoritmoGenetico.exe.config
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\AlgoritmoGenetico.exe
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\AlgoritmoGenetico.pdb
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.Properties.Resources.resources
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.csproj.GenerateResource.Cache
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.exe
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.pdb
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.MainWindow.VentanaPrincipal.resources
+C:\Users\Arlin\Desktop\ProyectoFinalIA\SrcCode\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\AlgoritmoGenetico.csprojResolveAssemblyReference.cache

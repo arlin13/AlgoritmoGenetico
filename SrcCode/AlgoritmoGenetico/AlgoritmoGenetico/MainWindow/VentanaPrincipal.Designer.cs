@@ -1,6 +1,6 @@
-﻿namespace AlgoritmoGenetico
+﻿namespace AlgoritmoGenetico.MainWindow
 {
-    partial class Form1
+    partial class VentanaPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -44,19 +44,19 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poblacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripEditarPoblacion50 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripEditarPoblacion100 = new System.Windows.Forms.ToolStripMenuItem();
+            this.selecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripEditarSeleccionElitista = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripEditarSeleccionMedia = new System.Windows.Forms.ToolStripMenuItem();
+            this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gráficaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.desarrolladoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aplicacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gráficaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.poblacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.selecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.elitistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBoxPoblacion.SuspendLayout();
             this.groupBoxSeleccion.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -135,13 +135,13 @@
             this.radioButtonSeleccionAzar.Name = "radioButtonSeleccionAzar";
             this.radioButtonSeleccionAzar.Size = new System.Drawing.Size(54, 17);
             this.radioButtonSeleccionAzar.TabIndex = 1;
-            this.radioButtonSeleccionAzar.TabStop = true;
             this.radioButtonSeleccionAzar.Text = "Media";
             this.radioButtonSeleccionAzar.UseVisualStyleBackColor = true;
             // 
             // radioButtonSeleccionElitista
             // 
             this.radioButtonSeleccionElitista.AutoSize = true;
+            this.radioButtonSeleccionElitista.Checked = true;
             this.radioButtonSeleccionElitista.Location = new System.Drawing.Point(6, 19);
             this.radioButtonSeleccionElitista.Name = "radioButtonSeleccionElitista";
             this.radioButtonSeleccionElitista.Size = new System.Drawing.Size(55, 17);
@@ -237,6 +237,12 @@
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            // 
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -246,6 +252,52 @@
             this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.editarToolStripMenuItem.Text = "Editar";
             // 
+            // poblacionToolStripMenuItem
+            // 
+            this.poblacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripEditarPoblacion50,
+            this.toolStripEditarPoblacion100});
+            this.poblacionToolStripMenuItem.Name = "poblacionToolStripMenuItem";
+            this.poblacionToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.poblacionToolStripMenuItem.Text = "Población";
+            // 
+            // toolStripEditarPoblacion50
+            // 
+            this.toolStripEditarPoblacion50.Name = "toolStripEditarPoblacion50";
+            this.toolStripEditarPoblacion50.Size = new System.Drawing.Size(92, 22);
+            this.toolStripEditarPoblacion50.Text = "50";
+            this.toolStripEditarPoblacion50.Click += new System.EventHandler(this.toolStripEditarPoblacion50_Click);
+            // 
+            // toolStripEditarPoblacion100
+            // 
+            this.toolStripEditarPoblacion100.Name = "toolStripEditarPoblacion100";
+            this.toolStripEditarPoblacion100.Size = new System.Drawing.Size(92, 22);
+            this.toolStripEditarPoblacion100.Text = "100";
+            this.toolStripEditarPoblacion100.Click += new System.EventHandler(this.toolStripEditarPoblacion100_Click);
+            // 
+            // selecciónToolStripMenuItem
+            // 
+            this.selecciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripEditarSeleccionElitista,
+            this.toolStripEditarSeleccionMedia});
+            this.selecciónToolStripMenuItem.Name = "selecciónToolStripMenuItem";
+            this.selecciónToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.selecciónToolStripMenuItem.Text = "Selección";
+            // 
+            // toolStripEditarSeleccionElitista
+            // 
+            this.toolStripEditarSeleccionElitista.Name = "toolStripEditarSeleccionElitista";
+            this.toolStripEditarSeleccionElitista.Size = new System.Drawing.Size(108, 22);
+            this.toolStripEditarSeleccionElitista.Text = "Elitista";
+            this.toolStripEditarSeleccionElitista.Click += new System.EventHandler(this.elitistaToolStripMenuItem_Click);
+            // 
+            // toolStripEditarSeleccionMedia
+            // 
+            this.toolStripEditarSeleccionMedia.Name = "toolStripEditarSeleccionMedia";
+            this.toolStripEditarSeleccionMedia.Size = new System.Drawing.Size(108, 22);
+            this.toolStripEditarSeleccionMedia.Text = "Media";
+            this.toolStripEditarSeleccionMedia.Click += new System.EventHandler(this.mediaToolStripMenuItem_Click);
+            // 
             // verToolStripMenuItem
             // 
             this.verToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -253,6 +305,12 @@
             this.verToolStripMenuItem.Name = "verToolStripMenuItem";
             this.verToolStripMenuItem.Size = new System.Drawing.Size(36, 20);
             this.verToolStripMenuItem.Text = "Ver";
+            // 
+            // gráficaToolStripMenuItem
+            // 
+            this.gráficaToolStripMenuItem.Name = "gráficaToolStripMenuItem";
+            this.gráficaToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.gráficaToolStripMenuItem.Text = "Gráfica";
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -262,12 +320,6 @@
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
             // 
             // desarrolladoresToolStripMenuItem
             // 
@@ -281,55 +333,7 @@
             this.aplicacionToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.aplicacionToolStripMenuItem.Text = "Aplicacion";
             // 
-            // gráficaToolStripMenuItem
-            // 
-            this.gráficaToolStripMenuItem.Name = "gráficaToolStripMenuItem";
-            this.gráficaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.gráficaToolStripMenuItem.Text = "Gráfica";
-            // 
-            // poblacionToolStripMenuItem
-            // 
-            this.poblacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.poblacionToolStripMenuItem.Name = "poblacionToolStripMenuItem";
-            this.poblacionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.poblacionToolStripMenuItem.Text = "Población";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem2.Text = "50";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem3.Text = "100";
-            // 
-            // selecciónToolStripMenuItem
-            // 
-            this.selecciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.elitistaToolStripMenuItem,
-            this.mediaToolStripMenuItem});
-            this.selecciónToolStripMenuItem.Name = "selecciónToolStripMenuItem";
-            this.selecciónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.selecciónToolStripMenuItem.Text = "Selección";
-            // 
-            // elitistaToolStripMenuItem
-            // 
-            this.elitistaToolStripMenuItem.Name = "elitistaToolStripMenuItem";
-            this.elitistaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.elitistaToolStripMenuItem.Text = "Elitista";
-            // 
-            // mediaToolStripMenuItem
-            // 
-            this.mediaToolStripMenuItem.Name = "mediaToolStripMenuItem";
-            this.mediaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.mediaToolStripMenuItem.Text = "Media";
-            // 
-            // Form1
+            // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -341,7 +345,7 @@
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.panelPictureBox);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Form1";
+            this.Name = "VentanaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Algoritmo genético";
             this.groupBoxPoblacion.ResumeLayout(false);
@@ -385,11 +389,11 @@
         private System.Windows.Forms.ToolStripMenuItem desarrolladoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aplicacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem poblacionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripEditarPoblacion50;
+        private System.Windows.Forms.ToolStripMenuItem toolStripEditarPoblacion100;
         private System.Windows.Forms.ToolStripMenuItem selecciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem elitistaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mediaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripEditarSeleccionElitista;
+        private System.Windows.Forms.ToolStripMenuItem toolStripEditarSeleccionMedia;
     }
 }
 
